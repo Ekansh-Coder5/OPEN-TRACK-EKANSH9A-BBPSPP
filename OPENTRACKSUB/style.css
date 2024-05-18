@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  nav ul li {
+    margin-left: 20px;
+  }
+  
+  .hero {
+    background-color: #524C42;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+  }
+  
+  .hero h1 {
+    margin-bottom: 30px;
+  }
+  
+  .new-arrival {
+    background-color: #E2DFD0;
+    padding: 30px;
+    text-align: center;
+  }
+  
+  .product {
+    width: 100%;
+    background-color:#524C42;
+    padding: 60px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    padding-left: 40px;
+  }
+  
+  .why-choose-us {
+    background-color: #524C42;
+    color: white;
+    text-align: center;
+    padding: 60px 0;
+  }
+  
+  footer {
+    background-color: #E2DFD0;
+    padding: 30px;
+    text-align: center;
+  }
+  .navbar {
+    background-color: #000;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar-menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar-item {
+    margin: 0 10px;
+  }
+  
+  .navbar-item a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar-item a:hover {
+    color: #ccc;
+  }
+  .contact-section {
+    background-color: #F5F5F5;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .section-title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+  
+  .contact-info {
+    margin-bottom: 50px;
+  }
+  
+  .contact-info p {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .contact-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .contact-form label {
+    display: block;
+    font-size: 20px;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  
+  .contact-form input[type="text"],
+  .contact-form input[type="email"],
+  .contact-form textarea {
+    border: 1px solid #CCC;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 10px;
+    width: 100%;
+  }
+  
+  .contact-form input[type="submit"] {
+    background-color: #E2DFD0;
+    border: none;
+    border-radius: 5px;
+    color: #333;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .contact-form input[type="submit"]:hover {
+    background-color: #D5D3C9;
+  }
+  .my-button {
+    background-color: #E2DFD0;
+    color: #333;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+  }
+  
+  .my-button:hover {
+    background-color: #D5D3C9;
+    font-weight: bold;
+    text-decoration: none;
+  }
